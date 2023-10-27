@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>multitracksAPI</name>
+    </assembly>
+    <members>
+        <member name="M:multitracksAPI.Controllers.ArtistsController.SearchByName(System.String)">
+            <summary>
+            Endpoint to search for an artist by name.
+            </summary>
+            <param name="search"></param>
+            <returns>A list of Artists that contains the searched value in they name</returns>
+        </member>
+        <member name="M:multitracksAPI.Controllers.ArtistsController.Add(Domain.ArtistPostRequest)">
+            <summary>
+            Endpoint to add an Artist to the Artist table.
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:multitracksAPI.Controllers.SongsController.List(Domain.PaginationParameters)">
+            <summary>
+            Endpoint to list all songs with paging support using page size, page number, etc.
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
